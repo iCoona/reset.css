@@ -1,0 +1,74 @@
+/**
+ * reset.css v1.0.0 | MIT License | github.com/iCoona/reset.css
+ * Created by Coona on 2016/12/24.
+ */
+/* Document Content
+   =============================================================
+ */
+
+/**
+ * 1. Change the default box model.
+ * 2. Remove the margin and padding in all browsers.
+ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/**
+ * Add the default display and content in all browser.
+ */
+*:before,*:after{
+    content: "";
+    display: inline-block;
+}
+/**
+ * 1. Change the default 'font-family' and 'font-size' in all browsers .
+ * 2. Correct the 'line-height' in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
+ */
+body,button,input,textarea,select{
+    font: 16px /1.15 "Microsoft YaHei", "Helvetica", "Arial", "SansSerif", "微软雅黑";
+    -ms-text-size-adjust: 100%; /* 3 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+}
+/*
+ *Add the correct display in IE 9-.
+ */
+article,aside,footer,header,nav,section,figure,figcaption,main,details {
+    display: block;
+}
+/**
+ *Remove the 'text-decoration' on a element.
+ */
+a{
+    text-decoration: none;
+}
+/**
+ *Remove the 'list-style' on list element.
+ */
+ul,ol,li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+/**
+ * Remove the outline on focused links when they are also active or hovered in all browsers.
+ */
+a:active,a:hover {
+    outline-width: 0;
+}
+/**
+ * 1.Add the correct display in IE 9-.
+ * 2.Change the default of span and li.
+ */
+audio,video,canvas,span,li/*2*/{
+    display: inline-block;
+}
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+    display: none;
+}
